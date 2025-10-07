@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+  </head>
+  <body>
+    <form>
+      <label for="first-name">First name:</label><br>
+      <input type="text" id=first-name name="firstname" placeholder="Your first name">
+      <br>
+      <label for="last-name">Last name:</label><br>
+      <input type="text" id="last-name" name="lastname" placeholder="Your last name">
+      <br>
+      <label for="student-id">Student Id:</label><br>
+      <input type="text" id="student-id" name="studentid" placeholder="Your student id"><br><br>
+      
+      <input type="submit" value="Submit">
+      <input type="reset">
+      
+    </form>
+  </body>
+</html>
