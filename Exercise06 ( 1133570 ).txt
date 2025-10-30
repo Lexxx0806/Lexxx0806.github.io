@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Information Table</title>
+<style>
+  table {
+    /* Required: Borders collapse into one border */
+    border-collapse: collapse;
+    width: 500px; 
+  }
+  
+  th, td {
+    /* Required: th, td padding 5px */
+    padding: 5px;
+    /* Required: Text aligns to left */
+    text-align: left;
+    /* Styles to make the table visible */
+    border: 1px solid black; 
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Student ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alex</td>
+      <td>1133570</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
